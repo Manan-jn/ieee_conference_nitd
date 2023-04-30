@@ -45,7 +45,7 @@ function Navb() {
             fontSize: "20px",
           }}
         >
-          IEEE
+          ICMCSP 2024
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className="collapsingIcons">
@@ -174,11 +174,11 @@ function Navb() {
                 color: "white",
                 padding: "8px",
                 marginLeft: "20px",
-                borderColor: "blue",
+                borderColor: "#273053",
                 borderWidth: "2px",
                 borderRadius: "10px",
                 borderStyle: "solid",
-                backgroundColor: "blue",
+                backgroundColor: "#273053",
               }}
             >
               Register
