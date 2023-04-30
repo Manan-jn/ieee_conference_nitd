@@ -51,11 +51,12 @@ const Home = () => {
     <div className="App">
       <Navb show={true} />
       <HomePage />
-      <AboutInstitute />
-      <hr />
-      <AboutConference />
       <Sponsor />
+      <AboutConference />
+      <hr />
+      <AboutInstitute />
       <Speakers />
+
       <RegistrationandParticipationFee />
       <Location />
       {/* <Contact /> */}
