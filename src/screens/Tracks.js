@@ -70,6 +70,7 @@ const Tracks = () => {
       <div
         style={{
           backgroundColor: "#273053",
+          fontFamily: "Archivo",
         }}
       >
         <div
@@ -92,16 +93,17 @@ const Tracks = () => {
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th>Track Number</th>
-                <th>Nomenclature</th>
+                <th style={{width:"20%"}}>Track Number</th>
+                <th style={{width:"30%"}}>Nomenclature</th>
+                <th style={{width:"50%"}}>Supported IEEE Societies</th>
               </tr>
             </thead>
             <tbody>
-              {tracksData.map(({ id, trackNumber, nomenclature }) => (
+              {tracksData.map(({ id, trackNumber, nomenclature, societies }) => (
                 <tr key={id}>
                   <td>{trackNumber}</td>
                   <td>{nomenclature}</td>
-                  {/* <div
+                  <div
                       style={{
                         display: "flex",
                         flexDirection: "column",
@@ -117,7 +119,7 @@ const Tracks = () => {
                           {item}
                         </td>
                       ))}
-                    </div> */}
+                    </div>
                 </tr>
               ))}
             </tbody>
@@ -143,21 +145,20 @@ const Tracks = () => {
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th>Track Number</th>
-                <th>Nomenclature</th>
-                {/* <th>Supported IEEE Societies</th> */}
+                <th style={{width:"20%"}}>Track Number</th>
+                <th style={{width:"30%"}}>Nomenclature</th>
+                <th style={{width:"50%"}}>Supported IEEE Societies</th>
               </tr>
             </thead>
             <tbody>
-              {subTracksData.map(({ id, trackNumber, nomenclature }) => (
+              {subTracksData.map(({ id, trackNumber, nomenclature, societies }) => (
                 <tr key={id}>
                   <td>{trackNumber}</td>
                   <td>{nomenclature}</td>
-                  {/* <div
+                  <div
                       style={{
                         display: "flex",
                         flexDirection: "column",
-                        alignItems: "flex-start",
                       }}
                     >
                       {societies.split("\n").map((item, i) => (
@@ -170,7 +171,7 @@ const Tracks = () => {
                           {item}
                         </td>
                       ))}
-                    </div> */}
+                    </div>
                 </tr>
               ))}
             </tbody>

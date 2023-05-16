@@ -98,6 +98,7 @@ const Footer = () => {
     //     </p>
     //   </div>
     // </div>
+    
     <div
       id="footer"
       style={{ backgroundColor: "#273053", width: "100%", height: "100%" }}
@@ -169,7 +170,7 @@ const Footer = () => {
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
-            justifyContent: "space-between",
+            justifyContent: "center",
             width: "85%",
             marginTop: "20px",
             marginBottom: "30px",
@@ -249,81 +250,18 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div
-            className="contact2"
-            style={{
-              borderColor: "#273053",
-              borderWidth: "1px",
-              borderRadius: "25px",
-              borderStyle: "solid",
-              boxShadow: "0 1rem 3rem rgba(0,0,0,.575)",
-              padding: "25px",
-              transition: "ease-in 0.5s",
-              marginLeft: "20px",
-            }}
-          >
-            <div>
-              <IoPersonOutline
-                style={{ marginBottom: "10px", width: "25px", height: "25px" }}
-              />
-              <p style={{ fontWeight: "bold" }}>Dr. Manisha Bharti</p>
-              <p>Organizing Secretary</p>
-              <p>Associate Professor, Department of ECE, NIT Delhi</p>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <CiMail
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  cursor: "pointer",
-                }}
-              />
-              <p
-                style={{
-                  marginTop: "10px",
-                  marginLeft: "6px",
-                  cursor: "pointer",
-                }}
-                onClick={() =>
-                  (window.location = "mailto:manishabharti@nitdelhi.ac.in")
-                }
-              >
-                manishabharti@nitdelhi.ac.in
-              </p>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <BiPhone
-                style={{
-                  width: "25px",
-                  height: "25px",
-                  cursor: "pointer",
-                }}
-              />
-              <p
-                style={{
-                  marginTop: "12px",
-                  marginLeft: "6px",
-                  cursor: "pointer",
-                }}
-              >
-                9990344355, 011-33861156
-              </p>
-            </div>
-          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            marginTop: "20px",
+            marginBottom: "30px",
+          }}
+        >
           <div
             className="contact3"
             style={{
@@ -342,7 +280,7 @@ const Footer = () => {
                 style={{ marginBottom: "10px", width: "25px", height: "25px" }}
               />
               <p style={{ fontWeight: "bold" }}>Dr. Rikmantra Basu</p>
-              <p>Organizing Secretary</p>
+              <p>Convener</p>
               <p>Associate Professor, Department of ECE, NIT Delhi</p>
             </div>
             <div
@@ -399,6 +337,244 @@ const Footer = () => {
               </p>
             </div>
           </div>
+          <div
+            className="contact2"
+            style={{
+              borderColor: "#273053",
+              borderWidth: "1px",
+              borderRadius: "25px",
+              borderStyle: "solid",
+              boxShadow: "0 1rem 3rem rgba(0,0,0,.575)",
+              padding: "25px",
+              transition: "ease-in 0.5s",
+              marginLeft: "20px",
+            }}
+          >
+            <div>
+              <IoPersonOutline
+                style={{ marginBottom: "10px", width: "25px", height: "25px" }}
+              />
+              <p style={{ fontWeight: "bold" }}>Dr. Manisha Bharti</p>
+              <p>Convener</p>
+              <p>Associate Professor, Department of ECE, NIT Delhi</p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <CiMail
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+                onClick={() =>
+                  (window.location = "mailto:manishabharti@nitdelhi.ac.in")
+                }
+              >
+                manishabharti@nitdelhi.ac.in
+              </p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <BiPhone
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+              >
+                9990344355, 011-33861156
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            marginTop: "20px",
+            marginBottom: "30px",
+          }}
+        >
+          <div
+            className="contact3"
+            style={{
+              borderColor: "#273053",
+              borderWidth: "1px",
+              borderRadius: "25px",
+              borderStyle: "solid",
+              boxShadow: "0 1rem 3rem rgba(0,0,0,.575)",
+              padding: "25px",
+              transition: "ease-in 0.5s",
+              marginLeft: "20px",
+            }}
+          >
+            <div>
+              <IoPersonOutline
+                style={{ marginBottom: "10px", width: "25px", height: "25px" }}
+              />
+              <p style={{ fontWeight: "bold" }}>Dr. D.Vaithiyanathan</p>
+              <p>Organizing Secretary</p>
+              <p>Assistant Professor, Department of ECE, NIT Delhi</p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <CiMail
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+                onClick={() =>
+                  (window.location = "mailto:sandeep@nitdelhi.ac.in")
+                }
+              >
+                {/* rikmantrabasu@nitelhi.ac.in */}
+                sandeep@nitdelhi.ac.in
+              </p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <BiPhone
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+              >
+                9899320887, 011-33861159
+              </p>
+            </div>
+          </div>
+          <div
+            className="contact2"
+            style={{
+              borderColor: "#273053",
+              borderWidth: "1px",
+              borderRadius: "25px",
+              borderStyle: "solid",
+              boxShadow: "0 1rem 3rem rgba(0,0,0,.575)",
+              padding: "25px",
+              transition: "ease-in 0.5s",
+              marginLeft: "20px",
+            }}
+          >
+            <div>
+              <IoPersonOutline
+                style={{ marginBottom: "10px", width: "25px", height: "25px" }}
+              />
+              <p style={{ fontWeight: "bold" }}>Dr. Sandeep Kumar</p>
+              <p>Organizing Secretary</p>
+              <p>Assistant Professor, Department of ECE, NIT Delhi</p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <CiMail
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "10px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+                onClick={() =>
+                  (window.location = "mailto:sandeep@nitdelhi.ac.in")
+                }
+              >
+                sandeep@nitdelhi.ac.in
+              </p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <BiPhone
+                style={{
+                  width: "25px",
+                  height: "25px",
+                  cursor: "pointer",
+                }}
+              />
+              <p
+                style={{
+                  marginTop: "12px",
+                  marginLeft: "6px",
+                  cursor: "pointer",
+                }}
+              >
+                +91-11-33861155
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -432,7 +608,7 @@ const Footer = () => {
             marginBottom: "0px",
           }}
         >
-          SITE DEVELOPED BY{" "}
+          Site developed by{" "}
           <a
             href="https://www.linkedin.com/in/ayush-dokania-2b27131b9/"
             style={{
@@ -440,15 +616,15 @@ const Footer = () => {
             }}
           >
             AYUSH Kr. DOKANIA,
-          </a>{" "}
+          </a>,{" "}
           <a
             href="https://www.linkedin.com/in/manan-jain-65aa561b7/"
             style={{
               textDecorationLine: "none",
             }}
           >
-            MANAN JAIN,
-          </a>{" "}
+            MANAN JAIN
+          </a>,{" "}
           <a
             href="https://www.linkedin.com/in/priyanshu-agrawal-5a00651b1/"
             style={{
@@ -457,6 +633,7 @@ const Footer = () => {
           >
             PRIYANSHU AGRAWAL
           </a>
+          ,{" "}Students of NIT Delhi, of ECE Branch
         </p>
       </div>
     </div>
